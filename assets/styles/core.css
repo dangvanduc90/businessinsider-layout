@@ -11166,35 +11166,33 @@ body:before {
             line-height: 45px;
         }
 
-
-@media (min-width: 960px) {
-
-    .social-wide .social-link {
-        margin: 0 2%;
-        font-size: 16px;
-        line-height: 45px;
-    }
-}
-@media (min-width: 600px) {
-
-    .social-wide .social-link {
-        margin: 0 2%;
-        font-size: 16px;
-    }
-}
-@media (min-width: 960px) {
-    .social-wide {
-        margin: 0;
-    }
-
-}
-
 .brands-social {
     padding-left: 45px;
 }
-@media (min-width: 1260px) {
-    .brands-social {
-        padding-left: 45px;
+
+.post-headline {
+    margin: 20px 0 12px;
+    border-bottom: 1px solid #d8d8d8;
+    padding-bottom: 17px;
+    font-size: 1.67rem;
+    line-height: 1.2;
+    color: #111;
+}
+
+@media (min-width: 600px) {
+    .social-wide .social-link {
+        margin: 0 2%;
+        font-size: 16px;
+    }
+    .brands-sisters, .brands-site-logo, .brands-social {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .post-headline {
+        margin-bottom: 6px;
+        padding-bottom: 17px;
+        font-size: 2.6875rem;
+        line-height: 1.22;
     }
 }
 @media (min-width: 960px) {
@@ -11203,10 +11201,23 @@ body:before {
         max-width: 50%;
     }
 
+    .social-wide {
+        margin: 0;
+    }
+    .social-wide .social-link {
+        margin: 0 2%;
+        font-size: 16px;
+        line-height: 45px;
+    }
+    .post-headline {
+        line-height: 1.21;
+    }
 }
-@media (min-width: 600px) {
-    .brands-sisters, .brands-site-logo, .brands-social {
-        flex: 0 0 100%;
-        max-width: 100%;
+@media (min-width: 1260px) {
+    .brands-social {
+        padding-left: 45px;
+    }
+    .post-headline {
+        margin-bottom: 6px;
     }
 }
