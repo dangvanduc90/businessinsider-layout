@@ -1,0 +1,168 @@
+#piano-inline-content-wrapper {
+    display: none!important;
+}
+.piano-freemium {
+    display: block!important;
+}
+#piano-inline-slideshow-wrapper {
+    display: none!important;
+}
+
+.fonts-loaded .headline-regular, /* utility class */
+.fonts-loaded .image-source,
+.fonts-loaded .accounts-list,
+.fonts-loaded .vertical-link,
+.fonts-loaded .promo-listitem,
+.fonts-loaded .editions-picker,
+.fonts-loaded .category-wrapper,
+.fonts-loaded .byline-timestamp,
+.fonts-loaded .search-panel-input,
+.fonts-loaded .verticals-listitem-link,
+.fonts-loaded .verticals-accordion-label,
+.fonts-loaded .verticals-accordion-label,
+.fonts-loaded .verticals-accordion-subvertical-link,
+.fonts-loaded .verticals-subvertical-link,
+.fonts-loaded .finanzen-tabs .content,
+.fonts-loaded .finanzen-tabs .chart-name,
+.fonts-loaded .tout-byline,
+.fonts-loaded .tout-author.multiple-authors,
+.fonts-loaded .river-more-link,
+.fonts-loaded .insider-pick-source,
+.fonts-loaded .newsletters-content,
+.fonts-loaded .tout-timestamp,
+.fonts-loaded .filters-sort-order,
+.fonts-loaded .drawer-sub-vertical-link,
+.fonts-loaded .ins-drawer-sub-vertical-title,
+.fonts-loaded .trending-list li {
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fonts-loaded .headline-bold, /* utility class */
+.fonts-loaded h1,
+.fonts-loaded h2,
+.fonts-loaded h3,
+.fonts-loaded h4,
+.fonts-loaded h5,
+.fonts-loaded h6,
+.fonts-loaded .typography h1 strong,
+.fonts-loaded .typography h2 strong,
+.fonts-loaded .typography h3 strong,
+.fonts-loaded .typography h4 strong,
+.fonts-loaded .typography h5 strong,
+.fonts-loaded .typography h6 strong,
+.fonts-loaded .typography .summary-list,
+.fonts-loaded .typography .summary-list li,
+.fonts-loaded .typography .summary-list strong,
+.fonts-loaded .typography .read-more-links li:first-child,
+.fonts-loaded .typography .read-more-links li:first-child strong,
+.fonts-loaded .error-404,
+.fonts-loaded .verticals-aside .verticals-listitem-link,
+.fonts-loaded .vertical-featured a,
+.fonts-loaded .image-caption,
+.fonts-loaded .byline-author,
+.fonts-loaded .editorial-sidebar, /* Only used on INSIDER for newsletter signup in right rail. */
+.fonts-loaded .more-from-title,
+.fonts-loaded .recommended-title,
+.fonts-loaded .recommended-header,
+.fonts-loaded .latest-header-title,
+.fonts-loaded .byline-publication-source,
+.fonts-loaded .video-recirculation-header,
+.fonts-loaded .more-from-author,
+.fonts-loaded .more-from-author .byline-author,
+.fonts-loaded .more-from-author .byline-publication-source,
+.fonts-loaded .video-share::before,
+.fonts-loaded .theme-module-header::before,
+.fonts-loaded .tout-author,
+.fonts-loaded .tout-tag-link,
+.fonts-loaded .river-section-title,
+.fonts-loaded .insider-pick-header,
+.fonts-loaded .insider-pick-name,
+.fonts-loaded .insider-pick-button,
+.fonts-loaded .featured-tout ol li,
+.fonts-loaded * .btn-rounded,
+.fonts-loaded .masthead-icon,
+.fonts-loaded .subscribe-btn,
+.fonts-loaded .hub-nav-link,
+.fonts-loaded .drawer-vertical-link,
+.fonts-loaded .drawer-heading,
+.fonts-loaded .ins-edition-picker-label,
+.fonts-loaded .ins-drawer-sub-vertical-link,
+.fonts-loaded .account-btn-label,
+.fonts-loaded .nav-account-item .accounts-link,
+.fonts-loaded .post-sponsorlink-headline {
+    font-weight: 900;
+    font-style: normal;
+}
+
+@media (min-width:600px) {
+    .fonts-loaded .editorial-header,
+    .fonts-loaded .error-right-message,
+    .fonts-loaded .more-from-title,
+    .fonts-loaded .slide-count,
+    .fonts-loaded .theme-center-underline {
+        font-weight: 900;
+        font-style: normal;
+    }
+}
+
+.fonts-loaded .headline-bold-italic, /* utility class */
+.fonts-loaded .typography h1 em,
+.fonts-loaded .typography h2 em,
+.fonts-loaded .typography h3 em,
+.fonts-loaded .typography h4 em,
+.fonts-loaded .typography h5 em,
+.fonts-loaded .typography h6 em,
+.fonts-loaded .river-section-header-title,
+.fonts-loaded .typography.featured-tout ol em,
+.fonts-loaded .trending-list h2 {
+    font-weight: 900;
+    font-style: italic;
+}
+
+.fonts-loaded .body-regular, /* utility class */
+.fonts-loaded .typography,
+.fonts-loaded .typography p,
+.fonts-loaded .typography li,
+.fonts-loaded .typography dt,
+.fonts-loaded .typography dd,
+.fonts-loaded .publication-feed-listitem,
+.fonts-loaded .tout-copy,
+.fonts-loaded .insider-pick-price,
+.fonts-loaded .insider-pick-description {
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fonts-loaded .body-italic, /* utility class */
+.fonts-loaded .typography p em,
+.fonts-loaded .typography ul em,
+.fonts-loaded .typography ol em,
+.fonts-loaded .category-tagline p,
+.fonts-loaded .typography .blockquote,
+.fonts-loaded .publication-external-url,
+.fonts-loaded .publication-external-url p,
+.fonts-loaded .insider-picks-disclaimer {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.fonts-loaded .body-bold, /* utility class */
+.fonts-loaded .typography p strong,
+.fonts-loaded .typography ul strong,
+.fonts-loaded .typography ol strong,
+.fonts-loaded .insider-pick-read-more {
+    font-weight: 600;
+    font-style: normal;
+}
+
+.fonts-loaded .body-bold-italic, /* utility class */
+.fonts-loaded .typography p strong em,
+.fonts-loaded .typography p em strong,
+.fonts-loaded .typography ul strong em,
+.fonts-loaded .typography ul em strong,
+.fonts-loaded .typography ol strong em,
+.fonts-loaded .typography ol em strong {
+    font-weight: 600;
+    font-style: italic;
+}
