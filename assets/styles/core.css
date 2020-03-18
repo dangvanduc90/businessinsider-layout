@@ -1047,16 +1047,19 @@ ul {
 #l-rightrail {
     display: none;
 }
+#l-rightrail img {
+    max-width: 100%;
+}
 
 @media(min-width:960px) {
     #l-rightrail {
         display: flex;
-        width: 300px;
+        width: 200px;
         padding: 10px 0 0;
     }
 
     #l-rightrail.is-site-skin {
-        width: 315px;
+        width: 215px;
         padding: 66px 15px 0 0;
     }
 }
@@ -1068,12 +1071,12 @@ ul {
 @media(min-width:960px) {
     #l-rightrail.popular-story-indicator {
         display: flex;
-        width: 300px;
+        width: 200px;
         padding: 8px 0 0;
     }
 
     #l-rightrail.popular-story-indicator.is-site-skin {
-        width: 315px;
+        width: 215px;
         padding: 66px 15px 0 0;
     }
 }
