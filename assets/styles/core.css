@@ -1047,6 +1047,7 @@ ul {
 #l-rightrail {
     display: none;
 }
+
 #l-rightrail img {
     max-width: 100%;
 }
@@ -1054,12 +1055,12 @@ ul {
 @media(min-width:960px) {
     #l-rightrail {
         display: flex;
-        width: 200px;
+        width: 300px;
         padding: 10px 0 0;
     }
 
     #l-rightrail.is-site-skin {
-        width: 215px;
+        width: 315px;
         padding: 66px 15px 0 0;
     }
 }
@@ -1071,12 +1072,12 @@ ul {
 @media(min-width:960px) {
     #l-rightrail.popular-story-indicator {
         display: flex;
-        width: 200px;
+        width: 300px;
         padding: 8px 0 0;
     }
 
     #l-rightrail.popular-story-indicator.is-site-skin {
-        width: 215px;
+        width: 315px;
         padding: 66px 15px 0 0;
     }
 }
@@ -11138,17 +11139,17 @@ body:before {
     display: flex;
     justify-content: center;
 }
-    .social-wide {
-        height: 42px;
-        margin: 40px 0;
-        font-size: 0;
-        text-align: center;
-        white-space: nowrap;
-    }
-    .social {
-        padding: 0;
-        list-style: none;
-    }
+.social-wide {
+    height: 42px;
+    margin: 40px 0;
+    font-size: 0;
+    text-align: center;
+    white-space: nowrap;
+}
+.social {
+    padding: 0;
+    list-style: none;
+}
 
 .social-wide .social-link.deferred.facebook {
     padding: 15.85px;
@@ -11156,18 +11157,18 @@ body:before {
 .social-wide .social-link.deferred {
     padding: 12px;
 }
-        .social-wide .social-link {
-            display: inline-flex;
-            justify-content: center;
-            align-items: center;
-            width: 42px;
-            height: 42px;
-            margin: 0 3%;
-            border: 1px solid #c3c4c5;
-            border-radius: 50%;
-            font-size: 16px;
-            line-height: 45px;
-        }
+.social-wide .social-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    margin: 0 3%;
+    border: 1px solid #c3c4c5;
+    border-radius: 50%;
+    font-size: 16px;
+    line-height: 45px;
+}
 
 .brands-social {
     padding-left: 45px;
@@ -11197,6 +11198,9 @@ body:before {
         font-size: 2.6875rem;
         line-height: 1.22;
     }
+    .container, .container-md {
+        max-width: 959px;
+    }
 }
 @media (min-width: 960px) {
     .brands-social {
@@ -11215,6 +11219,9 @@ body:before {
     .post-headline {
         line-height: 1.21;
     }
+    .container, .container-lg, .container-md {
+        max-width: 960px;
+    }
 }
 @media (min-width: 1260px) {
     .brands-social {
@@ -11222,5 +11229,8 @@ body:before {
     }
     .post-headline {
         margin-bottom: 6px;
+    }
+    .container, .container-lg, .container-md, .container-xl {
+        max-width: 1260px;
     }
 }
